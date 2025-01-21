@@ -1,0 +1,31 @@
+{
+  "name": "ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@repo/components": "workspace:*",
+    "@repo/types": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "globals": "^15.14.0",
+    "postcss": "^8.x",
+    "tailwindcss": "^3.x",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "autoprefixer": "^10.x"
+  }
+}

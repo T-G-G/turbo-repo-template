@@ -1,0 +1,7 @@
+{
+  "extends": "@repo/typescript-config/vite-node.json",
+  "include": ["vite.config.ts"],
+  "compilerOptions": {
+    "incremental": true
+  }
+}

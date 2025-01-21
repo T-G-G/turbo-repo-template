@@ -1,5 +1,5 @@
 {
-  "name": "zumi-v2",
+  "name": "sample-repo",
   "private": true,
   "scripts": {
     "build": "turbo build",

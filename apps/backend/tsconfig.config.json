@@ -1,0 +1,7 @@
+{
+  "extends": "@repo/typescript-config/ts-node.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "incremental": true
+  }
+}
